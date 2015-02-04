@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3F0267D1A7F4EAE00749F82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0267C1A7F4EAE00749F82 /* main.m */; };
+		A3F026801A7F4EAE00749F82 /* LJSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0267F1A7F4EAE00749F82 /* LJSAppDelegate.m */; };
+		A3F026831A7F4EAE00749F82 /* LJSImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F026821A7F4EAE00749F82 /* LJSImageCropperViewController.m */; };
+		A3F026881A7F4EAE00749F82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F026871A7F4EAE00749F82 /* Images.xcassets */; };
+		A3F0268B1A7F4EAE00749F82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F026891A7F4EAE00749F82 /* LaunchScreen.xib */; };
+		A3F026A21A7F522000749F82 /* LJSImageCropperView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F026A11A7F522000749F82 /* LJSImageCropperView.m */; };
+		A3F026A51A80A97F00749F82 /* LJSImageResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F026A41A80A97F00749F82 /* LJSImageResultViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3F026771A7F4EAE00749F82 /* LJSImageCropperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJSImageCropperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F0267B1A7F4EAE00749F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F0267C1A7F4EAE00749F82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3F0267E1A7F4EAE00749F82 /* LJSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJSAppDelegate.h; sourceTree = "<group>"; };
+		A3F0267F1A7F4EAE00749F82 /* LJSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJSAppDelegate.m; sourceTree = "<group>"; };
+		A3F026811A7F4EAE00749F82 /* LJSImageCropperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJSImageCropperViewController.h; sourceTree = "<group>"; };
+		A3F026821A7F4EAE00749F82 /* LJSImageCropperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJSImageCropperViewController.m; sourceTree = "<group>"; };
+		A3F026871A7F4EAE00749F82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3F0268A1A7F4EAE00749F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A3F026A01A7F522000749F82 /* LJSImageCropperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LJSImageCropperView.h; path = ../LJSImageCropperView.h; sourceTree = "<group>"; };
+		A3F026A11A7F522000749F82 /* LJSImageCropperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LJSImageCropperView.m; path = ../LJSImageCropperView.m; sourceTree = "<group>"; };
+		A3F026A31A80A97F00749F82 /* LJSImageResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJSImageResultViewController.h; sourceTree = "<group>"; };
+		A3F026A41A80A97F00749F82 /* LJSImageResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJSImageResultViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F026741A7F4EAE00749F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3F0266E1A7F4EAE00749F82 = {
+			isa = PBXGroup;
+			children = (
+				A3F026A01A7F522000749F82 /* LJSImageCropperView.h */,
+				A3F026A11A7F522000749F82 /* LJSImageCropperView.m */,
+				A3F026791A7F4EAE00749F82 /* LJSImageCropperDemo */,
+				A3F026781A7F4EAE00749F82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3F026781A7F4EAE00749F82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F026771A7F4EAE00749F82 /* LJSImageCropperDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3F026791A7F4EAE00749F82 /* LJSImageCropperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0267E1A7F4EAE00749F82 /* LJSAppDelegate.h */,
+				A3F0267F1A7F4EAE00749F82 /* LJSAppDelegate.m */,
+				A3F026811A7F4EAE00749F82 /* LJSImageCropperViewController.h */,
+				A3F026821A7F4EAE00749F82 /* LJSImageCropperViewController.m */,
+				A3F026871A7F4EAE00749F82 /* Images.xcassets */,
+				A3F026891A7F4EAE00749F82 /* LaunchScreen.xib */,
+				A3F0267A1A7F4EAE00749F82 /* Supporting Files */,
+				A3F026A31A80A97F00749F82 /* LJSImageResultViewController.h */,
+				A3F026A41A80A97F00749F82 /* LJSImageResultViewController.m */,
+			);
+			path = LJSImageCropperDemo;
+			sourceTree = "<group>";
+		};
+		A3F0267A1A7F4EAE00749F82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0267B1A7F4EAE00749F82 /* Info.plist */,
+				A3F0267C1A7F4EAE00749F82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3F026761A7F4EAE00749F82 /* LJSImageCropperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F0269A1A7F4EAF00749F82 /* Build configuration list for PBXNativeTarget "LJSImageCropperDemo" */;
+			buildPhases = (
+				A3F026731A7F4EAE00749F82 /* Sources */,
+				A3F026741A7F4EAE00749F82 /* Frameworks */,
+				A3F026751A7F4EAE00749F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJSImageCropperDemo;
+			productName = LJSImageCropperDemo;
+			productReference = A3F026771A7F4EAE00749F82 /* LJSImageCropperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3F0266F1A7F4EAE00749F82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Luke Scholefield";
+				TargetAttributes = {
+					A3F026761A7F4EAE00749F82 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A3F026721A7F4EAE00749F82 /* Build configuration list for PBXProject "LJSImageCropperDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3F0266E1A7F4EAE00749F82;
+			productRefGroup = A3F026781A7F4EAE00749F82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3F026761A7F4EAE00749F82 /* LJSImageCropperDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3F026751A7F4EAE00749F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F0268B1A7F4EAE00749F82 /* LaunchScreen.xib in Resources */,
+				A3F026881A7F4EAE00749F82 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3F026731A7F4EAE00749F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F026831A7F4EAE00749F82 /* LJSImageCropperViewController.m in Sources */,
+				A3F026801A7F4EAE00749F82 /* LJSAppDelegate.m in Sources */,
+				A3F026A21A7F522000749F82 /* LJSImageCropperView.m in Sources */,
+				A3F026A51A80A97F00749F82 /* LJSImageResultViewController.m in Sources */,
+				A3F0267D1A7F4EAE00749F82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3F026891A7F4EAE00749F82 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F0268A1A7F4EAE00749F82 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3F026981A7F4EAF00749F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3F026991A7F4EAF00749F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3F0269B1A7F4EAF00749F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LJSImageCropperDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A3F0269C1A7F4EAF00749F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LJSImageCropperDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3F026721A7F4EAE00749F82 /* Build configuration list for PBXProject "LJSImageCropperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F026981A7F4EAF00749F82 /* Debug */,
+				A3F026991A7F4EAF00749F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F0269A1A7F4EAF00749F82 /* Build configuration list for PBXNativeTarget "LJSImageCropperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F0269B1A7F4EAF00749F82 /* Debug */,
+				A3F0269C1A7F4EAF00749F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3F0266F1A7F4EAE00749F82 /* Project object */;
+}
